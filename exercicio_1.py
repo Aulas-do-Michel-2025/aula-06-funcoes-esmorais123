@@ -11,7 +11,7 @@ Obs: Escreva necessariamente uma função que retorne (não só imprima) esses v
 o teste vai procurar uma função com esse nome.
 """
 
-def verificar_nota(nota=0):
+def verificar_nota(nota):
     if nota > 5:
         return 'Aprovado'
     elif nota >= 3 and nota <=5:
