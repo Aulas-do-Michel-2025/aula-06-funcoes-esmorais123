@@ -9,5 +9,6 @@ Exemplo de uso:
 >>> 100
 """
 
-def calcular_media(valores):     
-    return sum(valores) / len(valores)
+def calcular_media(valores):
+    media = sum(valores) / len(valores)
+    return media
