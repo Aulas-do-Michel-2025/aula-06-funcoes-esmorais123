@@ -9,10 +9,10 @@ Exemplo de uso:
 >>> {"id": 10, "nome": "HIV", 1000}
 """
 
-def criar_organismo(id, nome, tamanho_do_genoma):
+def criar_organismo(id, nomes, tamanho_do_genoma):
     organismo = {
         "id": id,
-        "nome": nome,
+        "nome": nomes,
         "tamanho_do_genoma": tamanho_do_genoma
     }
     return organismo
